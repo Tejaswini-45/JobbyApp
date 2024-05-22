@@ -1,0 +1,120 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202020;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1110px;
+  padding: 15px 0px 25px 0px;
+}
+.navbar-mobile-logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .navbar-mobile-logo-container {
+    display: none;
+  }
+}
+.navbar-large-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1110px;
+}
+@media screen and (min-width: 767px) {
+  .navbar-large-container {
+    display: none;
+  }
+}
+.logo {
+  width: 90px;
+  margin-top: 12px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 125px;
+  }
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+.nav-item {
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 10px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.logout-desktop-btn {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #4f46e5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 42px;
+}
+@media screen and (min-width: 767px) {
+  .logout-desktop-btn {
+    display: none;
+  }
+}
+.navbar-icons-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  background: transparent;
+  color: #ffffff;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-mobile-item {
+  color: #ffffff;
+  font-size: 24px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .nav-button {
+    display: none;
+  }
+}
